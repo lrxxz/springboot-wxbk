@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.lrx.dao.CommentMapper">
+
+    <insert id="insertComment" parameterType="UniversityComment">
+        insert into university_comment(com_mid,com_uid,com_text,com_time) values (#{comMid},#{comUid},#{comText},#{comTime})
+    </insert>
+
+    <select id="selectComment" parameterType="String" resultType="UniversityComment">
+        select * from university_comment where com_mid = #{comMid} order by com_time DESC
+    </select>
+
+    <delete id="deleteComment" parameterType="Integer">
+        delete from university_comment where com_id = #{comId}
+    </delete>
+</mapper>

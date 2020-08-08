@@ -1,0 +1,10 @@
+org\lrx\controller\SearchController.class
+org\lrx\controller\MatterController.class
+org\lrx\controller\TestController.class
+org\lrx\controller\UniversityController.class
+org\lrx\ControllerApplication.class
+org\lrx\controller\UserController.class
+org\lrx\controller\LikeController.class
+org\lrx\controller\MessageController.class
+org\lrx\config\MyWebMvcConfig.class
+org\lrx\controller\CommentController.class

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.lrx.dao.MatterMapper">
+
+    <insert id="matterInsert" parameterType="UniversityMatter">
+        insert into university_matter(m_id,m_kind,m_head,m_text,m_like,m_uid,m_time) values (#{mId},#{mKind},#{mHead},#{mText},#{mLike},#{mUid},#{mTime})
+    </insert>
+
+    <insert id="insertFile" parameterType="UniversityPicture">
+        insert into university_picture values
+        <foreach collection="list" item="files" index="index" separator=",">
+            (#{files.pMid},#{files.pAdress})
+        </foreach>
+    </insert>
+
+<!--下面两个查询一个是查询新闻，一个查询新闻的图片-->
+    <select id="selectUniver" resultType="UniversityMatter">
+        SELECT * FROM university_matter  ORDER BY university_matter.m_time DESC
+    </select>
+    <select id="selectUniverPicture" parameterType="String" resultType="UniversityPicture">
+        select * FROM university_picture where p_mid = #{pMid}
+    </select>
+
+    <!-- 查询单个多表连接 -->
+    <select id="selectUniverOne" parameterType="String" resultMap="Matter">
+        SELECT university_matter.*,university_picture.p_adress FROM university_matter,university_picture WHERE university_matter.m_id = university_picture.p_mid AND m_id = #{mId}
+    </select>
+    <resultMap type="UniversityMatter" id="Matter">
+        <id property="mId" column="m_id"/>
+        <result property="mKind" column="m_kind"/>
+        <result property="mHead" column="m_head"/>
+        <result property="mText" column="m_text"/>
+        <result property="mLike" column="m_like"/>
+        <result property="mUid" column="m_uid"/>
+        <result property="mTime" column="m_time"/>
+        <collection property="universityPictureList" ofType="UniversityPicture">
+            <id property="pMid" column="p_mid"/>
+            <result property="pAdress" column="p_adress"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectUniverKind" parameterType="String" resultType="UniversityMatter">
+        SELECT * FROM university_matter WHERE m_kind = #{mKind} ORDER BY university_matter.m_time DESC
+    </select>
+
+    <select id="selectUniverByUser" parameterType="String" resultType="UniversityMatter">
+        select * from university_matter where m_uid = #{mUid}
+    </select>
+
+    <delete id="deleteUniverMatterById" parameterType="String">
+        delete from university_matter where m_id = #{mId}
+    </delete>
+
+</mapper>

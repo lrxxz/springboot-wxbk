@@ -1,0 +1,10 @@
+org\lrx\entity\University.class
+org\lrx\entity\UniversityMatter.class
+org\lrx\entity\UniversityUser.class
+org\lrx\entity\UniversityPicture2.class
+org\lrx\entity\UniversityMessage.class
+org\lrx\entity\UniversitySearch.class
+org\lrx\entity\UniversityComment.class
+org\lrx\entity\UniversityLike.class
+org\lrx\EntityApplication.class
+org\lrx\entity\UniversityPicture.class

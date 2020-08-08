@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.lrx.dao.UniversityMapper">
+    <insert id="universityInsert" parameterType="university">
+        insert into university values (#{universityId},#{universityName},#{universityMessage},#{universityAdress})
+    </insert>
+
+    <insert id="insertUniversityFile" parameterType="UniversityPicture2">
+        insert into university_picture2 values
+        <foreach collection="list" item="files" index="index" separator=",">
+            (#{files.universityId},#{files.universityPicture})
+        </foreach>
+    </insert>
+
+    <!--下面两个查询一个是查询新闻，一个查询新闻的图片-->
+    <select id="selectUniverMessage" resultType="University">
+        SELECT * FROM university
+    </select>
+    <select id="selectUniverPicture2" parameterType="String" resultType="UniversityPicture2">
+        select * FROM university_picture2 where university_id = #{universityId}
+    </select>
+
+    <delete id="deleteUniversity" parameterType="String">
+        delete from university where university_id = #{universityId}
+    </delete>
+</mapper>

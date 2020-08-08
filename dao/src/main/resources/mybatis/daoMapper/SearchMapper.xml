@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.lrx.dao.SearchMapper">
+
+    <select id="selectSearch" resultType="String">
+        SELECT search_content FROM university_search GROUP BY search_content ORDER BY COUNT(search_content) DESC
+    </select>
+
+    <insert id="insertSearch" parameterType="String">
+        insert into university_search(search_content) values (#{searchContent})
+    </insert>
+
+    <select id="selectSearchByContent" parameterType="String" resultType="UniversityMatter">
+        select * from university_matter where university_matter.m_text like '%${searchContent}%' order by university_matter.m_time desc
+    </select>
+</mapper>

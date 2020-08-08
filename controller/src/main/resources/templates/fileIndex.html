@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>文件上传</title>
+    <script  type="text/javascript" th:src="@{/js/jquery-3.4.1.min.js}"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#registerForm").submit(function () {
+                //将表单中的数据弄成地址栏的格式
+                var data = $("#registerForm").serialize();
+                $.ajax({
+                    url: "/wxbk/matterInsert",
+                    type: "post",
+                    //必须设置，保证你提交的数据和后台返回是同步的
+                    async: false,
+                    data: data,
+                    dataType: 'json',
+                    success: function (data) {
+                        if(data.type == "success"){
+                            $("#pMid").val(data.pMid);
+                            alert(data.msg);
+                        }else {
+                            alert(data.msg);
+                        }
+                    }
+                });
+                return false;
+            });
+            $("#fileForm").submit(function () {
+                var data = new FormData($("#fileForm")[0]);
+                $.ajax({
+                    url: "/wxbk/fileInsert",
+                    type: "post",
+                    //不设置内容类型
+                    contentType: false,
+                    //不处理数据
+                    processData: false,
+                    //必须设置，保证你提交的数据和后台返回是同步的
+                    async: false,
+                    data: data,
+                    dataType: 'json',
+                    success: function (data) {
+                        if(data.type == "success"){
+                            alert(data.msg);
+                        }else {
+                            alert(data.msg);
+                        }
+                    }
+                });
+                return false;
+            });
+
+        });
+    </script>
+</head>
+<body>
+<!--用户注册-->
+<form id="registerForm">
+    <table border="1" cellspacing="1">
+        <tr>
+            <td>种类:</td>
+            <td><input id="mKind" type="text" name="mKind" placeholder="请输入种类"></td>
+        </tr>
+        <tr>
+            <td>标题:</td>
+            <td><input id="mHead" type="text" name="mHead" placeholder="请输入标题"></td>
+        </tr>
+        <tr>
+            <td>内容:</td>
+            <td><input id="mText" type="text" name="mText" placeholder="请输入内容"></td>
+        </tr>
+        <tr>
+            <td>点赞:</td>
+            <td><input id="mLike" type="text" name="mLike" placeholder="点赞数"></td>
+        </tr>
+        <tr>
+            <td>用户id:</td>
+            <td><input id="mUid" type="text" name="mUid" placeholder="请输入用户id"></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="注册"></td>
+        </tr>
+    </table>
+</form>
+<!--文件上传-->
+<form id="fileForm">
+    文件：<input type="file" name="file" multiple="multiple"/>
+      <input id="pMid" type="hidden" name="pMid"/>
+    <input type="submit" value="上传"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+org\lrx\service\serviceImpl\UserServiceImpl.class
+org\lrx\service\LikeService.class
+org\lrx\service\UserService.class
+org\lrx\service\FileService.class
+org\lrx\service\serviceImpl\CommentServiceImpl.class
+org\lrx\service\MatterService.class
+org\lrx\ServiceApplication.class
+org\lrx\service\serviceImpl\FileServiceImpl.class
+org\lrx\service\UniversityService.class
+org\lrx\service\CommentService.class
+org\lrx\service\MessageService.class
+org\lrx\service\serviceImpl\MatterServiceImpl.class
+org\lrx\service\serviceImpl\UniversityServiceImpl.class
+org\lrx\service\SearchService.class
+org\lrx\service\serviceImpl\MessageServiceImpl.class
+org\lrx\service\serviceImpl\LikeServiceImpl.class
+org\lrx\service\serviceImpl\SearchServiceImpl.class

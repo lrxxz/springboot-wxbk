@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.lrx.dao.UserMapper">
+    
+    <insert id="userInsert" parameterType="UniversityUser" >
+        insert into university_user values (#{userId},#{username},#{password},#{userPicture})
+    </insert>
+
+    <select id="userSelectByName" parameterType="String" resultType="UniversityUser">
+        select * from university_user where username = #{username}
+    </select>
+
+    <select id="userSelect"  resultType="UniversityUser">
+        select * from university_user where username = #{username} and password = #{password}
+    </select>
+
+    <select id="userSelectById" parameterType="String" resultType="UniversityUser">
+        select * from university_user where user_id = #{userId}
+    </select>
+
+    <insert id="userInsertPicture" >
+        update university_user set user_picture=#{userPicture} where user_id = #{userId}
+    </insert>
+
+    <update id="userUpdatePassword" >
+        update university_user set password=#{xPassword} where username = #{username}
+    </update>
+
+    <update id="udateUser" parameterType="UniversityUser">
+        update university_user set username = #{username},user_picture = #{userPicture} where user_id = #{userId}
+    </update>
+</mapper>

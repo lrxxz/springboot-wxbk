@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="entity" />
+        <module name="commons" />
+        <module name="dao" />
+        <module name="service" />
+        <module name="controller" />
+        <module name="until" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="1.8" />
+      <module name="controller" target="1.8" />
+      <module name="dao" target="1.8" />
+      <module name="entity" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="springboot-wxbk" target="1.8" />
+      <module name="until" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons" options="-parameters" />
+      <module name="controller" options="-parameters" />
+      <module name="dao" options="-parameters" />
+      <module name="entity" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="springboot-wxbk" options="-parameters" />
+      <module name="until" options="-parameters" />
+    </option>
+  </component>
+</project>

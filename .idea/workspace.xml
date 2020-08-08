@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7a3edf1-080b-48e5-a142-07bd227b76a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - lrx_wx@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-cfg.xml" />
+        <option value="mybatis-mapper.xml" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven库/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven库\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1eJCyW6jVTaktfaa3aGs2I7M9YM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\springboot-wxbk\controller\src\main\resources\templates" />
+      <recent name="D:\idea\springboot-wxbk\controller\src\main\resources\static" />
+      <recent name="D:\idea\springboot-wxbk\until\src\main\java\org\lrx\until" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\springboot-wxbk\controller\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.lrx.ControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7a3edf1-080b-48e5-a142-07bd227b76a5" name="Default Changelist" comment="" />
+      <created>1586148930503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586148930503</updated>
+      <workItem from="1586148934057" duration="110000" />
+      <workItem from="1586149075592" duration="1195000" />
+      <workItem from="1586150300561" duration="1379000" />
+      <workItem from="1586151704098" duration="3334000" />
+      <workItem from="1586322646405" duration="13284000" />
+      <workItem from="1586337729603" duration="165000" />
+      <workItem from="1586409253482" duration="10054000" />
+      <workItem from="1586753848762" duration="3214000" />
+      <workItem from="1586843685762" duration="9768000" />
+      <workItem from="1586928161115" duration="13150000" />
+      <workItem from="1587016122595" duration="4020000" />
+      <workItem from="1587362051167" duration="6397000" />
+      <workItem from="1587541020203" duration="3956000" />
+      <workItem from="1587717836583" duration="670000" />
+      <workItem from="1587777674706" duration="761000" />
+      <workItem from="1587951310035" duration="1380000" />
+      <workItem from="1587965142673" duration="3845000" />
+      <workItem from="1588060035824" duration="2440000" />
+      <workItem from="1588142355907" duration="7417000" />
+      <workItem from="1588584491966" duration="647000" />
+      <workItem from="1588759166864" duration="3363000" />
+      <workItem from="1588828530958" duration="11477000" />
+      <workItem from="1589002841344" duration="7976000" />
+      <workItem from="1589022843740" duration="281000" />
+      <workItem from="1589023544168" duration="163000" />
+      <workItem from="1589089836241" duration="6635000" />
+      <workItem from="1589176509033" duration="678000" />
+      <workItem from="1589445786568" duration="3099000" />
+      <workItem from="1589526765905" duration="9185000" />
+      <workItem from="1589585890980" duration="16044000" />
+      <workItem from="1590826062630" duration="2829000" />
+      <workItem from="1590888611979" duration="4935000" />
+      <workItem from="1591921062351" duration="8395000" />
+      <workItem from="1592207714272" duration="59000" />
+      <workItem from="1594030570471" duration="1491000" />
+      <workItem from="1594032092551" duration="495000" />
+      <workItem from="1594120766957" duration="282000" />
+      <workItem from="1596358013799" duration="570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.07 at 15h 56m 30s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.07 at 15h 58m 34s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.07 at 16h 00m 20s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.09 at 16h 00m 26s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.09 at 16h 22m 55s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.09 at 16h 23m 33s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.14 at 19h 25m 32s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.16 at 11h 06m 16s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerApplicationTests_contextLoads - 2020.05.16 at 11h 13m 48s.xml">
+      <configuration name="ControllerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="org_lrx_until_in_until - 2020.06.12 at 09h 34m 52s.xml">
+      <configuration name="org.lrx.until in until" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="218" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594032124293">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="218" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1594032124293" />
+    <state x="620" y="321" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1594030868107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="620" y="321" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.864@0.0.1536.864" timestamp="1594030868107" />
+    <state x="349" y="87" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1594030828212">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="87" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1536.864@0.0.1536.864" timestamp="1594030828212" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1594030972492">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594030972492" />
+    <state width="1342" height="193" key="GridCell.Tab.0.bottom" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="1342" height="193" key="GridCell.Tab.0.center" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="1342" height="193" key="GridCell.Tab.0.left" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="1342" height="193" key="GridCell.Tab.0.right" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="1342" height="193" key="GridCell.Tab.1.bottom" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="1342" height="193" key="GridCell.Tab.1.center" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="1342" height="193" key="GridCell.Tab.1.left" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="1342" height="193" key="GridCell.Tab.1.right" timestamp="1594121042140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="193" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1594121042140" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1594031877734">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1594031877734" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1594032582856">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1594032582856" />
+    <state x="467" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1596358077164">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="467" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1596358077164" />
+  </component>
+</project>

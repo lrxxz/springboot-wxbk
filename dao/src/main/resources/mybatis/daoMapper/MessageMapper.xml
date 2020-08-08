@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.lrx.dao.MessageMapper">
+
+    <select id="selectMessage" parameterType="String" resultType="UniversityMessage">
+        select * from university_message where message_uid = #{messageUid}
+    </select>
+
+    <update id="updateMessage" parameterType="UniversityMessage" >
+        update university_message set message_university = #{messageUniversity},message_academy = #{messageAcademy},message_grade = #{messageGrade} where message_uid = #{messageUid}
+    </update>
+
+    <insert id="insertMessage" parameterType="UniversityMessage">
+        insert into university_message values (#{messageUid},#{messageUniversity},#{messageAcademy},#{messageGrade})
+    </insert>
+
+</mapper>

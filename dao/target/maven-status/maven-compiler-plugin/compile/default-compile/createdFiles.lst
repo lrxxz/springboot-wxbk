@@ -1,0 +1,8 @@
+org\lrx\dao\SearchMapper.class
+org\lrx\dao\UserMapper.class
+org\lrx\dao\CommentMapper.class
+org\lrx\DaoApplication.class
+org\lrx\dao\MessageMapper.class
+org\lrx\dao\LikeMapper.class
+org\lrx\dao\MatterMapper.class
+org\lrx\dao\UniversityMapper.class
